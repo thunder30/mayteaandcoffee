@@ -1,2 +1,2 @@
-# mayteaandcoffee.github.io
+# mayteaandcoffee
 May Tea And Coffee
