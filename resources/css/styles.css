@@ -1,0 +1,192 @@
+/* ---------setup ban đầu ---------- */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    /* mặc định là 16px */
+}
+/* ------------------------------------ */
+
+
+/* ----------Sử dụng thường xuyên ------------ */
+/* ------------------------------------------- */
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.row{
+    /* độ rộng lớn nhất là 1140px */
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+    background-color: #379683;
+    /* padding: top-bottoom left-right */
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0 5px;
+    /* thẻ a là inline element => ko chỉnh dc width,height */
+    /* sử dụng display: inline-block => để chỉnh được */
+    /* vì các thuộc tính block element chỉnh dc width,height */
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    transition: all .8s;
+}
+.btn:hover,
+.btn:active{
+    background-color: #9db4ca;
+}
+
+/* --------------------------------------- */
+
+
+/* --------------Header---------------- */
+/* ------------------------------------ */
+header{
+    background-image: linear-gradient(45deg, rgba(65,74,76,0.8) 25%,rgba(14,17,17,0.7)), url(../img/shallow-focus-photography-of-cafe-late-982612.jpg);
+    /* background-image: url(../img/shallow-focus-photography-of-cafe-late-982612.jpg); */
+    /* bao trùm vừa với trang web */
+    background-size: cover; 
+    /* cho vào trung tâm */
+    background-position: center;
+    /* chiều cao của background đối với trang web */
+    height: 100vh;
+    /* hiệu ứng của background khi scroll xuống */
+    background-attachment: fixed; 
+    
+}
+
+.logo{
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.main-nav li a{
+    /* đường gạch chân thẻ link */
+    text-decoration: none;
+    color: white;
+    font-size: 95%;
+    /* độ dày của chữ */
+    font-weight: 700;
+    /* sau 0.3s hiện hết border-bottom */
+    transition: border-bottom 0.3s;
+    padding-bottom: 3px;
+}
+/* hành động di chuột và click vào thẻ a  */
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid white;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.heading-main-text{
+    position: absolute;
+    /* so với độ dài màn hình trang web */
+    top: 50%;
+    left: 50%;
+    /* translate(chiều ngang, chiều dọc) so với độ dài của text */
+    transform: translate(-45%,-35%);
+    width: 1140px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 250%;
+    font-weight: 500;
+    color: #a1a39f;
+    /* khoảng cách các từ */
+    letter-spacing: 3px;
+    /* khoảng cách các chữ */
+    word-spacing: 5px;
+    /* khoảng cách giữa các dòng */
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    color: #353838;
+    font-size: 200%;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* -------------product------------------ */
+/* -------------------------------------- */
+
+.picture{
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid rgb(53,56,57);
+}
+
+
+.product-title, .product-price{
+    margin-top: 10px;
+    text-align: center;
+    transform: translate(-5%,0%);
+ 
+}
+
+.product-price{
+    color: #353838;
+    font-weight: 700;
+}
+
+
+.product-coffee{
+    background-color: rgba(209, 167, 133, 0.2);
+}
+
+.product-tea{
+    background-color: rgba(136, 175, 204, 0.4);
+}
+
+.product-fruittea{
+    background-color: rgba(74, 133, 130, 0.2);
+}
+
+.product-milktea{
+    background-color: rgba(124, 209, 142, 0.2);
+}
+
+
+.product-topping{
+    background-color: rgba(210, 219, 226, 0.8);
+
+}
+.product-ricepaper{
+    background-color: rgba(103, 122, 121, 0.4);
+}
+
