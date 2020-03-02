@@ -67,8 +67,7 @@ header{
     /* chiều cao của background đối với trang web */
     height: 100vh;
     /* hiệu ứng của background khi scroll xuống */
-    background-attachment: fixed; 
-    
+    background-attachment: fixed;     
 }
 
 .logo{

@@ -3,6 +3,10 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <!-- hiển thị trên điện thoại -->
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=0.5, minimum-scale=0.5, width=device-width">
     <title>May Tea And Coffee</title>
     <!-- đường dẫn file .css -->
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
@@ -12,7 +16,7 @@
 
     <!-- cài đặt fonts awesome => sử dụng icon -->
     <!-- <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"> -->
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>        
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
 
     <!-- reponsive grid system-->
     <link rel="stylesheet" href="vendors/css/grid.css">
@@ -47,10 +51,10 @@
     <section class="product-section">
         <!-- Cà phê -->
         <section class="product-coffee">
+            <h2>Cà phê</h2>
             <div class="row">
-                <h2>Cà phê</h2>
                 <div class="col span_1_of_4 picture-coffee">
-                    <img class="picture" src="resources/img/Product/Caphe/caphesua.jpg" alt="cf1">
+                    <img style="height: 245px;" class="picture" src="./resources/img/Product/Caphe/caphesua.jpg" alt="cf1">
                     <h4 class="product-title">
                         Cà phê sữa
                     </h4>
@@ -63,22 +67,176 @@
         <!-- Trà -->
         <section class="product-tea">
             <h2>Trà</h2>
+            <div class="row">
+                <div class="col span_1_of_4 picture-tea">
+                    <img class="picture" src="./resources/img/Product/Tra/HongTraTCCF.jpg" alt="tea">
+                    <h4 class="product-title">
+                        Hồng Trà Trân Châu + Coffee
+                    </h4>
+                    <p class="product-price">
+                        14.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-tea">
+                    <img class="picture" src="./resources/img/Product/Tra/LucTraTCTraiCay.jpg" alt="tea">
+                    <h4 class="product-title">
+                        Lục Trà Trân Châu + Trái Cây
+                    </h4>
+                    <p class="product-price">
+                        14.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-tea">
+                    <img class="picture" src="./resources/img/Product/Tra/HongTraNgocTrai.jpg" alt="tea">
+                    <h4 class="product-title">
+                        Hồng Trà Ngọc Trai
+                    </h4>
+                    <p class="product-price">
+                        22.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-tea">
+                    <img class="picture" src="./resources/img/Product/Tra/LucTraNgocTrai.jpg" alt="tea">
+                    <h4 class="product-title">
+                        Lục Trà Ngọc Trai
+                    </h4>
+                    <p class="product-price">
+                        22.000
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 picture-tea">
+                    <img class="picture" src="./resources/img/Product/Tra/HongTraTC.jpg" alt="tea">
+                    <h4 class="product-title">
+                        Hồng Trà Trân Châu
+                    </h4>
+                    <p class="product-price">
+                        10.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-tea">
+                    <img class="picture" src="./resources/img/Product/Tra/LucTraTC.jpg" alt="tea">
+                    <h4 class="product-title">
+                        Lục Trà Trân Châu
+                    </h4>
+                    <p class="product-price">
+                        10.000
+                    </p>
+                </div>
+            </div>
         </section>
         <!-- Trà vị trái cây -->
         <section class="product-fruittea">
             <h2>Trà vị trái cây</h2>
             <div class="row">
-                <!-- <div class="col span_1_of_4 picture-fruittea">
-                    <img class="picture" src="/resources/img/Product/TraViTraiCay/DaoCamXa.jpg" alt="ft">
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/DauTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà dâu trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/NhoTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà nho trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/KhoaiMonTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà khoai môn trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/SauRiengTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà sầu riêng trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/DaoTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà đào trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/KiwiTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà kiwwi trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/CherryTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà chery trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/CamTC.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà Cam trân châu
+                    </h4>
+                    <p class="product-price">
+                        13.000
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/DauTraiCay.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà dâu thạch trái cây
+                    </h4>
+                    <p class="product-price">
+                        20.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img class="picture" src="./resources/img/Product/TraViTraiCay/NhoTraiCay.jpg" alt="ft">
+                    <h4 class="product-title">
+                        Trà nho thạch trái cây
+                    </h4>
+                    <p class="product-price">
+                        20.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-fruittea">
+                    <img style=" height:240px;" class="picture" src="./resources/img/Product/TraViTraiCay/DaoCamXa.jpg"
+                        alt="ft">
                     <h4 class="product-title">
                         Trà đào cam xả
                     </h4>
                     <p class="product-price">
                         25.000
                     </p>
-                </div> -->
+                </div>
                 <div class="col span_1_of_4 picture-fruittea">
-                    <img class="picture" src="./resources/img/Product/TraViTraiCay/DetoxTraiCay.jpg" alt="ft">
+                    <img style=" height:240px;" class="picture"
+                        src="./resources/img/Product/TraViTraiCay/DetoxTraiCay1.jpg" alt="ft">
                     <h4 class="product-title">
                         Detox trái cây
                     </h4>
@@ -93,9 +251,95 @@
             <h2>Trà sữa</h2>
             <div class="row">
                 <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/ThaiXanh.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa thái xanh
+                    </h4>
+                    <p class="product-price">
+                        15.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/TranChau.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa trân châu
+                    </h4>
+                    <p class="product-price">
+                        15.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/TranChauSuongSao.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa trân châu sương sáo
+                    </h4>
+                    <p class="product-price">
+                        18.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img style="height: 245px;" class="picture" src="./resources/img/Product/TraSua/HatCfFlan.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa hạt cf - flan
+                    </h4>
+                    <p class="product-price">
+                        18.000
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/DauTC.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa dâu trân châu
+                    </h4>
+                    <p class="product-price">
+                        15.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/NhoTC.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa nho trân châu
+                    </h4>
+                    <p class="product-price">
+                        15.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/SauRiengTC.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa sầu riêng trân châu
+                    </h4>
+                    <p class="product-price">
+                        15.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/KhoaiMonTC.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Trà sữa khoai môn trân châu
+                    </h4>
+                    <p class="product-price">
+                        15.000
+                    </p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 picture-milktea">
                     <img class="picture" src="./resources/img/Product/TraSua/TranChauDuongDen.jpg" alt="mt">
                     <h4 class="product-title">
-                        Trân châu đường đen
+                        Trà sữa trân châu đường đen
+                    </h4>
+                    <p class="product-price">
+                        25.000
+                    </p>
+                </div>
+                <div class="col span_1_of_4 picture-milktea">
+                    <img class="picture" src="./resources/img/Product/TraSua/SuaTuoiTCDD.jpg" alt="mt">
+                    <h4 class="product-title">
+                        Sữa tươi trân châu đường đen
                     </h4>
                     <p class="product-price">
                         25.000
@@ -107,7 +351,7 @@
         <section class="product-topping">
             <h2>Topping</h2>
             <div class="row">
-                <div  class="col span_1_of_4 picture-topping">
+                <div class="col span_1_of_4 picture-topping">
                     <img class="picture" src="./resources/img/Product/Topping/BanhFlan.jpg" alt="bf1">
                     <h4 class="product-title">
                         Bánh Flan
@@ -209,7 +453,7 @@
                         12.000 <br>
                         <strike>15.000</strike>
                     </p>
-                    
+
                 </div>
             </div>
         </section>
